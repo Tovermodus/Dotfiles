@@ -1,0 +1,158 @@
+(undo-tree-save-format-version . 1)
+"8e5fd1087ddcbcc0ba970fe73aa2b20263fcc073"
+[nil nil nil nil (25483 33695 258955 97000) 0 nil]
+([nil nil ((#("O" 0 1 (fontified t face font-lock-string-face)) . -1940) (undo-tree-id9 . -1) (#("W" 0 1 (fontified t face font-lock-string-face)) . -1941) (undo-tree-id10 . -1) 1942 (t 25483 33268 550303 551000)) nil (25483 33749 47894 297000) 0 nil] [nil nil ((#("        " 0 8 (fontified nil)) . -1946) (1945 . 1946) (t 25483 33268 550303 551000)) ((#("
+" 0 1 (fontified t)) . 1945) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (1946 . 1954)) (25483 33695 258716 197000) 0 nil])
+([nil nil ((#("WIND" 0 4 (fontified t face font-lock-string-face)) . 1936) (undo-tree-id8 . -4) 1940) nil (25483 33749 47892 787000) 0 nil])
+nil
+([nil nil ((#("TILE_" 0 5 (fontified t face font-lock-string-face)) . 1931) (undo-tree-id7 . -5) 1936) nil (25483 33749 47891 920000) 0 nil])
+([nil nil ((1931 . 1934)) nil (25483 33749 47891 114000) 0 nil])
+([nil nil ((1934 . 1942)) nil (25483 33749 47890 675000) 0 nil])
+([nil nil ((#(">
+        <direction>left</direction>
+        <animate>true</animate>" 0 2 (fontified t) 2 10 (fontified t) 10 37 (fontified t face font-lock-variable-name-face) 37 38 (fontified t) 38 46 (fontified t) 46 69 (fontified t face font-lock-variable-name-face)) . -1943) (undo-tree-id2 . -69) (undo-tree-id3 . -38) (undo-tree-id4 . -69) (undo-tree-id5 . -69) (undo-tree-id6 . -38) 2012) nil (25483 33749 47889 863000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 2085 . 2086) (nil fontified nil 1943 . 2086) (1943 . 2086)) nil (25483 33749 47880 378000) 0 nil])
+([nil nil ((1943 . 1944) (t 25483 33749 117918 581000)) nil (25483 33776 55333 510000) 0 nil])
+([nil nil ((#("TYPE\"" 0 5 (fontified t face font-lock-string-face)) . 2053) (undo-tree-id21 . -5) 2058 (t 25483 33776 71491 232000)) nil (25483 33832 691421 682000) 0 nil])
+([nil nil ((#("DEVICE_" 0 7 (fontified t face font-lock-string-face)) . 2046) (undo-tree-id20 . -7) 2053) nil (25483 33832 691420 706000) 0 nil])
+([nil nil ((#("$TOUCHEGG_" 0 10 (fontified t face font-lock-string-face)) . 2036) (undo-tree-id19 . -10) 2046) nil (25483 33832 691419 850000) 0 nil])
+([nil nil ((#("TYPE=" 0 5 (fontified t face font-lock-string-face)) . 2031) (undo-tree-id18 . -5) 2036) nil (25483 33832 691419 4000) 0 nil])
+([nil nil ((#("DEVICE_" 0 7 (fontified t face font-lock-string-face)) . 2024) (undo-tree-id17 . -7) 2031) nil (25483 33832 691418 42000) 0 nil])
+([nil nil ((#("down, " 0 6 (fontified t face font-lock-string-face)) . 2018) (undo-tree-id16 . -6) 2024) nil (25483 33832 691417 175000) 0 nil])
+([nil nil ((#("Swipe " 0 6 (fontified t face font-lock-string-face)) . 2012) (undo-tree-id15 . -6) 2018) nil (25483 33832 691416 366000) 0 nil])
+([nil nil ((#("World' \"" 0 6 (fontified t face font-lock-string-face) 6 7 (fontified t) 7 8 (fontified t face font-lock-string-face)) . 2004) (undo-tree-id14 . -8) 2012) nil (25483 33832 691415 388000) 0 nil])
+([nil nil ((#("Hello " 0 6 (fontified t face font-lock-string-face)) . 1998) (undo-tree-id13 . -6) 2004) nil (25483 33832 691414 571000) 0 nil])
+([nil nil ((#("send '" 0 4 (fontified t face font-lock-variable-name-face) 4 5 (fontified t) 5 6 (fontified t face font-lock-string-face)) . 1992) (undo-tree-id12 . -6) 1998) nil (25483 33832 691413 532000) 0 nil])
+([nil nil ((#("notify-" 0 7 (fontified t face font-lock-variable-name-face)) . 1985) (undo-tree-id11 . -7) 1992) nil (25483 33832 691411 330000) 0 nil])
+([nil nil ((1985 . 1998)) nil (25483 33832 691390 855000) 0 nil])
+([nil nil ((1998 . 1999)) nil (25483 33832 691387 991000) 0 nil])
+([nil nil ((#("3" 0 1 (fontified t)) . 1998) (undo-tree-id22 . -1) 1999 (t 25483 33832 728660 971000)) nil (25484 38026 288522 528000) 0 nil])
+([nil nil ((1998 . 2002)) nil (25484 38026 288501 864000) 0 nil])
+([nil nil ((#("next" 0 4 (fontified t)) . 1998) (undo-tree-id23 . -4) 2002 (t 25484 38026 305592 80000)) nil (25484 38037 297669 72000) 0 nil])
+([nil nil ((1998 . 2002)) nil (25484 38037 297647 739000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 2061 . 2062) (nil fontified nil 2052 . 2062) (nil fontified nil 2047 . 2052) (nil fontified nil 2038 . 2047) (nil fontified nil 2032 . 2038) (nil fontified nil 2031 . 2032) (nil fontified nil 2030 . 2031) (nil fontified nil 2017 . 2030) (nil fontified nil 2013 . 2017) (nil fontified nil 2012 . 2013) (nil fontified nil 2002 . 2012) (nil fontified nil 1987 . 2002) (nil fontified nil 1976 . 1987) (nil fontified nil 1972 . 1976) (nil fontified nil 1971 . 1972) (nil fontified nil 1949 . 1971) (nil fontified nil 1945 . 1949) (nil fontified nil 1944 . 1945) (nil fontified nil 1943 . 1944) (nil fontified nil 1930 . 1943) (nil fontified nil 1924 . 1930) (nil fontified nil 1917 . 1924) (nil fontified nil 1911 . 1917) (nil fontified nil 1909 . 1911) (nil fontified nil 1903 . 1909) (nil fontified nil 1892 . 1903) (nil fontified nil 1889 . 1892) (nil fontified nil 1880 . 1889) (nil fontified nil 1873 . 1880) (nil fontified nil 1867 . 1873) (nil fontified nil 1859 . 1867) (nil fontified nil 1854 . 1859) (1854 . 2062) (t 25484 38037 309025 114000)) nil (25484 38060 65728 968000) 0 nil])
+([nil nil ((2062 . 2067)) nil (25484 38060 65721 663000) 0 nil])
+([nil nil ((#("prev" 0 4 (fontified t)) . 2211) (undo-tree-id28 . -4) 2215) nil (25484 38060 65720 136000) 0 nil])
+([nil nil ((2211 . 2215)) nil (25484 38060 65716 517000) 0 nil])
+([nil nil ((#("L" 0 1 (fontified t face font-lock-string-face)) . -2117) (undo-tree-id24 . -1) (#("E" 0 1 (fontified t face font-lock-string-face)) . -2118) (undo-tree-id25 . -1) (#("F" 0 1 (fontified t face font-lock-string-face)) . -2119) (undo-tree-id26 . -1) (#("T" 0 1 (fontified t face font-lock-string-face)) . -2120) (undo-tree-id27 . -1) 2121) nil (25484 38060 65712 880000) 0 nil])
+([nil nil ((2117 . 2122)) nil (25484 38060 65685 41000) 0 nil])
+([nil nil ((#("
+    <gesture type=\"SWIPE\" fingers=\"3\" direction=\"RIGHT\">
+      <action type=\"TILE_WINDOW\">
+        <direction>right</direction>
+        <animate>true</animate>
+      </action>
+    </gesture>
+" 0 5 (fontified t) 5 13 (fontified t face font-lock-variable-name-face) 13 19 (fontified t) 19 26 (fontified t face font-lock-string-face) 26 35 (fontified t) 35 38 (fontified t face font-lock-string-face) 38 49 (fontified t) 49 56 (fontified t face font-lock-string-face) 56 64 (fontified t) 64 71 (fontified t face font-lock-variable-name-face) 71 77 (fontified t) 77 90 (fontified t face font-lock-string-face) 90 100 (fontified t) 100 128 (fontified t face font-lock-variable-name-face) 128 137 (fontified t) 137 160 (fontified t face font-lock-variable-name-face) 160 167 (fontified t) 167 176 (fontified t face font-lock-variable-name-face) 176 181 (fontified t) 181 191 (fontified t face font-lock-variable-name-face) 191 192 (fontified t)) . -2277) (undo-tree-id78 . -192) (undo-tree-id79 . -192) 2469 (t 25484 38060 82564 796000)) nil (25484 38141 136624 287000) 0 nil])
+([nil nil ((#("
+    <gesture type=\"PINCH\" fingers=\"3\" direction=\"IN\">
+      <action type=\"CLOSE_WINDOW\">
+        <animate>true</animate>
+        <color>F84A53</color>
+        <borderColor>F84A53</borderColor>
+      </action>
+    </gesture>
+
+    <gesture type=\"SWIPE\" fingers=\"4\" direction=\"UP\">
+      <action type=\"CHANGE_DESKTOP\">
+        <direction>auto</direction>
+        <animate>true</animate>
+        <animationPosition>auto</animationPosition>
+      </action>
+    </gesture>
+
+    <gesture type=\"SWIPE\" fingers=\"4\" direction=\"DOWN\">
+      <action type=\"CHANGE_DESKTOP\">
+        <direction>auto</direction>
+        <animate>true</animate>
+        <animationPosition>auto</animationPosition>
+      </action>
+    </gesture>
+
+    <gesture type=\"SWIPE\" fingers=\"4\" direction=\"RIGHT\">
+      <action type=\"SEND_KEYS\">
+        <repeat>false</repeat>
+        <modifiers>Super_L</modifiers>
+        <keys>S</keys>
+        <on>begin</on>
+      </action>
+    </gesture>
+
+    <gesture type=\"PINCH\" fingers=\"4\" direction=\"OUT\">
+      <action type=\"SHOW_DESKTOP\">
+        <animate>true</animate>
+      </action>
+    </gesture>
+
+    <gesture type=\"PINCH\" fingers=\"4\" direction=\"IN\">
+      <action type=\"SEND_KEYS\">
+        <repeat>false</repeat>
+        <modifiers>Super_L</modifiers>
+        <keys>A</keys>
+        <on>begin</on>
+      </action>
+    </gesture>
+
+    <gesture type=\"TAP\" fingers=\"2\">
+      <action type=\"MOUSE_CLICK\">
+        <button>3</button>
+        <on>begin</on>
+      </action>
+    </gesture>
+
+    <gesture type=\"TAP\" fingers=\"3\">
+      <action type=\"MOUSE_CLICK\">
+        <button>2</button>
+        <on>begin</on>
+      </action>
+    </gesture>
+" 0 1 (fontified t) 1 5 (fontified t) 5 13 (fontified t face font-lock-variable-name-face) 13 19 (fontified t) 19 26 (fontified t face font-lock-string-face) 26 35 (fontified t) 35 38 (fontified t face font-lock-string-face) 38 49 (fontified t) 49 53 (fontified t face font-lock-string-face) 53 61 (fontified t) 61 68 (fontified t face font-lock-variable-name-face) 68 74 (fontified t) 74 88 (fontified t face font-lock-string-face) 88 98 (fontified t) 98 121 (fontified t face font-lock-variable-name-face) 121 130 (fontified t) 130 151 (fontified t face font-lock-variable-name-face) 151 160 (fontified t) 160 193 (fontified t face font-lock-variable-name-face) 193 200 (fontified t) 200 209 (fontified t face font-lock-variable-name-face) 209 214 (fontified t) 214 224 (fontified t face font-lock-variable-name-face) 224 230 (fontified t) 230 238 (fontified t face font-lock-variable-name-face) 238 244 (fontified t) 244 251 (fontified t face font-lock-string-face) 251 260 (fontified t) 260 263 (fontified t face font-lock-string-face) 263 274 (fontified t) 274 278 (fontified t face font-lock-string-face) 278 286 (fontified t) 286 293 (fontified t face font-lock-variable-name-face) 293 299 (fontified t) 299 315 (fontified t face font-lock-string-face) 315 325 (fontified t) 325 352 (fontified t face font-lock-variable-name-face) 352 361 (fontified t) 361 384 (fontified t face font-lock-variable-name-face) 384 393 (fontified t) 393 436 (fontified t face font-lock-variable-name-face) 436 443 (fontified t) 443 452 (fontified t face font-lock-variable-name-face) 452 457 (fontified t) 457 467 (fontified t face font-lock-variable-name-face) 467 473 (fontified t) 473 481 (fontified t face font-lock-variable-name-face) 481 487 (fontified t) 487 494 (fontified t face font-lock-string-face) 494 503 (fontified t) 503 506 (fontified t face font-lock-string-face) 506 517 (fontified t) 517 523 (fontified t face font-lock-string-face) 523 531 (fontified t) 531 538 (fontified t face font-lock-variable-name-face) 538 544 (fontified t) 544 560 (fontified t face font-lock-string-face) 560 570 (fontified t) 570 597 (fontified t face font-lock-variable-name-face) 597 606 (fontified t) 606 629 (fontified t face font-lock-variable-name-face) 629 638 (fontified t) 638 681 (fontified t face font-lock-variable-name-face) 681 688 (fontified t) 688 697 (fontified t face font-lock-variable-name-face) 697 702 (fontified t) 702 712 (fontified t face font-lock-variable-name-face) 712 718 (fontified t) 718 726 (fontified t face font-lock-variable-name-face) 726 732 (fontified t) 732 739 (fontified t face font-lock-string-face) 739 748 (fontified t) 748 751 (fontified t face font-lock-string-face) 751 762 (fontified t) 762 769 (fontified t face font-lock-string-face) 769 770 (fontified t) 770 771 (fontified t) 771 777 (fontified t) 777 784 (fontified t face font-lock-variable-name-face) 784 790 (fontified t) 790 801 (fontified t face font-lock-string-face) 801 811 (fontified t) 811 833 (fontified t face font-lock-variable-name-face) 833 842 (fontified t) 842 872 (fontified t face font-lock-variable-name-face) 872 881 (fontified t) 881 895 (fontified t face font-lock-variable-name-face) 895 904 (fontified t) 904 918 (fontified t face font-lock-variable-name-face) 918 925 (fontified t) 925 934 (fontified t face font-lock-variable-name-face) 934 939 (fontified t) 939 949 (fontified t face font-lock-variable-name-face) 949 955 (fontified t) 955 963 (fontified t face font-lock-variable-name-face) 963 969 (fontified t) 969 976 (fontified t face font-lock-string-face) 976 985 (fontified t) 985 988 (fontified t face font-lock-string-face) 988 999 (fontified t) 999 1004 (fontified t face font-lock-string-face) 1004 1012 (fontified t) 1012 1019 (fontified t face font-lock-variable-name-face) 1019 1025 (fontified t) 1025 1039 (fontified t face font-lock-string-face) 1039 1049 (fontified t) 1049 1072 (fontified t face font-lock-variable-name-face) 1072 1079 (fontified t) 1079 1088 (fontified t face font-lock-variable-name-face) 1088 1093 (fontified t) 1093 1100 (fontified t face font-lock-variable-name-face) 1100 1103 (fontified t face font-lock-variable-name-face) 1103 1104 (fontified t) 1104 1109 (fontified t) 1109 1117 (fontified t face font-lock-variable-name-face) 1117 1123 (fontified t) 1123 1130 (fontified t face font-lock-string-face) 1130 1134 (fontified t) 1134 1139 (fontified t) 1139 1142 (fontified t face font-lock-string-face) 1142 1153 (fontified t) 1153 1156 (fontified t face font-lock-string-face) 1156 1157 (fontified t face font-lock-string-face) 1157 1159 (fontified t) 1159 1165 (fontified t) 1165 1166 (fontified t face font-lock-variable-name-face) 1166 1172 (fontified t face font-lock-variable-name-face) 1172 1178 (fontified t) 1178 1179 (fontified t face font-lock-string-face) 1179 1188 (fontified t face font-lock-string-face) 1188 1189 (fontified t face font-lock-string-face) 1189 1191 (fontified t) 1191 1195 (fontified t) 1195 1199 (fontified t) 1199 1209 (fontified t face font-lock-variable-name-face) 1209 1216 (fontified t face font-lock-variable-name-face) 1216 1221 (fontified t face font-lock-variable-name-face) 1221 1222 (fontified t) 1222 1227 (fontified t) 1227 1230 (fontified t) 1230 1244 (fontified t face font-lock-variable-name-face) 1244 1245 (fontified t face font-lock-variable-name-face) 1245 1258 (fontified t face font-lock-variable-name-face) 1258 1260 (fontified t face font-lock-variable-name-face) 1260 1261 (fontified t) 1261 1269 (fontified t) 1269 1277 (fontified t face font-lock-variable-name-face) 1277 1283 (fontified t face font-lock-variable-name-face) 1283 1284 (fontified t) 1284 1292 (fontified t) 1292 1306 (fontified t face font-lock-variable-name-face) 1306 1313 (fontified t) 1313 1322 (fontified t face font-lock-variable-name-face) 1322 1327 (fontified t) 1327 1337 (fontified t face font-lock-variable-name-face) 1337 1343 (fontified t) 1343 1351 (fontified t face font-lock-variable-name-face) 1351 1357 (fontified t) 1357 1362 (fontified t face font-lock-string-face) 1362 1371 (fontified t) 1371 1374 (fontified t face font-lock-string-face) 1374 1382 (fontified t) 1382 1389 (fontified t face font-lock-variable-name-face) 1389 1395 (fontified t) 1395 1408 (fontified t face font-lock-string-face) 1408 1418 (fontified t) 1418 1436 (fontified t face font-lock-variable-name-face) 1436 1445 (fontified t) 1445 1459 (fontified t face font-lock-variable-name-face) 1459 1466 (fontified t) 1466 1475 (fontified t face font-lock-variable-name-face) 1475 1480 (fontified t) 1480 1490 (fontified t face font-lock-variable-name-face) 1490 1496 (fontified t) 1496 1500 (fontified t face font-lock-variable-name-face) 1500 1501 (fontified t face font-lock-variable-name-face) 1501 1504 (face font-lock-variable-name-face fontified t) 1504 1510 (fontified t) 1510 1515 (face font-lock-string-face fontified t) 1515 1524 (fontified t) 1524 1527 (face font-lock-string-face fontified t) 1527 1529 (fontified t) 1529 1535 (fontified t) 1535 1542 (fontified t face font-lock-variable-name-face) 1542 1548 (fontified t) 1548 1561 (fontified t face font-lock-string-face) 1561 1571 (fontified t) 1571 1589 (fontified t face font-lock-variable-name-face) 1589 1598 (fontified t) 1598 1612 (fontified t face font-lock-variable-name-face) 1612 1619 (fontified t) 1619 1628 (fontified t face font-lock-variable-name-face) 1628 1633 (fontified t) 1633 1643 (fontified t face font-lock-variable-name-face) 1643 1644 (fontified t)) . -2277) (undo-tree-id75 . -1644) (undo-tree-id76 . -1105) (undo-tree-id77 . -1644) 3921) nil (25484 38141 136619 279000) 0 nil])
+([nil nil ((#("
+  <application name=\"Google-chrome,Chromium-browser\">
+    <gesture type=\"PINCH\" fingers=\"2\" direction=\"IN\">
+      <action type=\"SEND_KEYS\">
+        <repeat>true</repeat>
+        <modifiers>Control_L</modifiers>
+        <keys>KP_Subtract</keys>
+        <decreaseKeys>KP_Add</decreaseKeys>
+      </action>
+    </gesture>
+
+    <gesture type=\"PINCH\" fingers=\"2\" direction=\"OUT\">
+      <action type=\"SEND_KEYS\">
+        <repeat>true</repeat>
+        <modifiers>Control_L</modifiers>
+        <keys>KP_Add</keys>
+        <decreaseKeys>KP_Subtract</decreaseKeys>
+      </action>
+    </gesture>
+  </application>
+
+" 0 3 (fontified t) 3 15 (fontified t face font-lock-variable-name-face) 15 21 (fontified t) 21 53 (fontified t face font-lock-string-face) 53 59 (fontified t) 59 67 (fontified t face font-lock-variable-name-face) 67 73 (fontified t) 73 80 (fontified t face font-lock-string-face) 80 89 (fontified t) 89 92 (fontified t face font-lock-string-face) 92 103 (fontified t) 103 107 (fontified t face font-lock-string-face) 107 115 (fontified t) 115 122 (fontified t face font-lock-variable-name-face) 122 128 (fontified t) 128 139 (fontified t face font-lock-string-face) 139 149 (fontified t) 149 170 (fontified t face font-lock-variable-name-face) 170 179 (fontified t) 179 211 (fontified t face font-lock-variable-name-face) 211 220 (fontified t) 220 244 (fontified t face font-lock-variable-name-face) 244 253 (fontified t) 253 288 (fontified t face font-lock-variable-name-face) 288 295 (fontified t) 295 304 (fontified t face font-lock-variable-name-face) 304 309 (fontified t) 309 319 (fontified t face font-lock-variable-name-face) 319 325 (fontified t) 325 333 (fontified t face font-lock-variable-name-face) 333 339 (fontified t) 339 346 (fontified t face font-lock-string-face) 346 355 (fontified t) 355 358 (fontified t face font-lock-string-face) 358 369 (fontified t) 369 374 (fontified t face font-lock-string-face) 374 382 (fontified t) 382 389 (fontified t face font-lock-variable-name-face) 389 395 (fontified t) 395 406 (fontified t face font-lock-string-face) 406 416 (fontified t) 416 437 (fontified t face font-lock-variable-name-face) 437 446 (fontified t) 446 478 (fontified t face font-lock-variable-name-face) 478 487 (fontified t) 487 506 (fontified t face font-lock-variable-name-face) 506 515 (fontified t) 515 555 (fontified t face font-lock-variable-name-face) 555 562 (fontified t) 562 571 (fontified t face font-lock-variable-name-face) 571 576 (fontified t) 576 586 (fontified t face font-lock-variable-name-face) 586 589 (fontified t) 589 603 (fontified t face font-lock-variable-name-face) 603 605 (fontified t)) . -2353) (undo-tree-id73 . -605) (undo-tree-id74 . -605) 2958) nil (25484 38141 136612 904000) 0 nil])
+([nil nil ((1854 . 1855)) nil (25484 38141 136608 416000) 0 nil])
+([nil nil ((#("2" 0 1 (fontified t face font-lock-variable-name-face)) . -1854) (undo-tree-id72 . -1) 1855) nil (25484 38141 136606 570000) 0 nil])
+([nil nil ((#("<gesture type=\"SWIPE\" fingers=\"3\" direction=\"UP\">
+      <action type=\"MAXIMIZE_RESTORE_WINDOW\">
+        <animate>true</animate>
+      </action>
+    </gesture>
+
+    <gesture type=\"SWIPE\" fingers=\"3\" direction=\"DOWN\">
+      <action type=\"MINIMIZE_WINDOW\">
+        <animate>true</animate>
+      </action>
+    </gesture>
+" 0 8 (fontified t face font-lock-variable-name-face) 8 14 (fontified t) 14 21 (fontified t face font-lock-string-face) 21 30 (fontified t) 30 33 (fontified t face font-lock-string-face) 33 44 (fontified t) 44 48 (fontified t face font-lock-string-face) 48 56 (fontified t) 56 63 (fontified t face font-lock-variable-name-face) 63 69 (fontified t) 69 94 (fontified t face font-lock-string-face) 94 104 (fontified t) 104 127 (fontified t face font-lock-variable-name-face) 127 134 (fontified t) 134 143 (fontified t face font-lock-variable-name-face) 143 148 (fontified t) 148 158 (fontified t face font-lock-variable-name-face) 158 164 (fontified t) 164 172 (fontified t face font-lock-variable-name-face) 172 178 (fontified t) 178 185 (fontified t face font-lock-string-face) 185 194 (fontified t) 194 197 (fontified t face font-lock-string-face) 197 208 (fontified t) 208 214 (fontified t face font-lock-string-face) 214 222 (fontified t) 222 229 (fontified t face font-lock-variable-name-face) 229 235 (fontified t) 235 252 (fontified t face font-lock-string-face) 252 262 (fontified t) 262 285 (fontified t face font-lock-variable-name-face) 285 292 (fontified t) 292 301 (fontified t face font-lock-variable-name-face) 301 306 (fontified t) 306 316 (fontified t face font-lock-variable-name-face) 316 317 (fontified t)) . 1537) (undo-tree-id65 . -317) (undo-tree-id66 . -143) (undo-tree-id67 . -127) (undo-tree-id68 . -160) (undo-tree-id69 . -317) (undo-tree-id70 . -317) (undo-tree-id71 . -317)) nil (25484 38141 136601 845000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -1532) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (#(" " 0 1 (fontified t)) . -1533) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (#(" " 0 1 (fontified t)) . -1534) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (#(" " 0 1 (fontified t)) . -1535) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (#(" " 0 1 (fontified t)) . -1536) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) 1537) nil (25484 38141 136576 224000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1652 . 1653) (nil fontified nil 1652 . 1653) (nil fontified nil 1642 . 1652) (nil fontified nil 1637 . 1642) (nil fontified nil 1628 . 1637) (nil fontified nil 1621 . 1628) (nil fontified nil 1598 . 1621) (nil fontified nil 1588 . 1598) (nil fontified nil 1571 . 1588) (nil fontified nil 1565 . 1571) (nil fontified nil 1558 . 1565) (nil fontified nil 1550 . 1558) (nil fontified nil 1544 . 1550) (nil fontified nil 1533 . 1544) (nil fontified nil 1530 . 1533) (nil fontified nil 1521 . 1530) (nil fontified nil 1514 . 1521) (nil fontified nil 1508 . 1514) (nil fontified nil 1500 . 1508) (nil fontified nil 1494 . 1500) (nil fontified nil 1484 . 1494) (nil fontified nil 1479 . 1484) (nil fontified nil 1470 . 1479) (nil fontified nil 1463 . 1470) (nil fontified nil 1440 . 1463) (nil fontified nil 1430 . 1440) (nil fontified nil 1405 . 1430) (nil fontified nil 1399 . 1405) (nil fontified nil 1392 . 1399) (nil fontified nil 1384 . 1392) (nil fontified nil 1380 . 1384) (nil fontified nil 1369 . 1380) (nil fontified nil 1366 . 1369) (nil fontified nil 1357 . 1366) (nil fontified nil 1350 . 1357) (nil fontified nil 1344 . 1350) (nil fontified nil 1336 . 1344) (1336 . 1653) 1532 (t 25484 38141 151183 371000)) nil (25484 38229 252152 732000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 2270 . 2271) (nil fontified nil 2261 . 2271) (nil fontified nil 2256 . 2261) (nil fontified nil 2247 . 2256) (nil fontified nil 2241 . 2247) (nil fontified nil 2240 . 2241) (nil fontified nil 2239 . 2240) (nil fontified nil 2226 . 2239) (nil fontified nil 2222 . 2226) (nil fontified nil 2221 . 2222) (nil fontified nil 2211 . 2221) (nil fontified nil 2196 . 2211) (nil fontified nil 2185 . 2196) (nil fontified nil 2181 . 2185) (nil fontified nil 2180 . 2181) (nil fontified nil 2158 . 2180) (nil fontified nil 2154 . 2158) (nil fontified nil 2153 . 2154) (nil fontified nil 2152 . 2153) (nil fontified nil 2139 . 2152) (nil fontified nil 2133 . 2139) (nil fontified nil 2126 . 2133) (nil fontified nil 2120 . 2126) (nil fontified nil 2118 . 2120) (nil fontified nil 2111 . 2118) (nil fontified nil 2100 . 2111) (nil fontified nil 2097 . 2100) (nil fontified nil 2088 . 2097) (nil fontified nil 2081 . 2088) (nil fontified nil 2075 . 2081) (nil fontified nil 2067 . 2075) (nil fontified nil 2063 . 2067) (nil fontified nil 2062 . 2063) (nil fontified nil 2057 . 2062) (2057 . 2271)) nil (25484 38229 252142 533000) 0 nil])
+([nil nil ((#("RIGHT" 0 5 (fontified t face font-lock-string-face)) . 2326) (undo-tree-id90 . -5) 2331) nil (25484 38229 252133 915000) 0 nil])
+([nil nil ((2326 . 2328)) nil (25484 38229 252130 621000) 0 nil])
+([nil nil ((#("next" 0 4 (fontified t)) . 2418) (undo-tree-id87 . -4) (undo-tree-id88 . -4) (undo-tree-id89 . -4) 2422) nil (25484 38229 252128 938000) 0 nil])
+([nil nil ((#("workspace " 0 10 (fontified t)) . 2408) (undo-tree-id84 . -10) (undo-tree-id85 . -10) (undo-tree-id86 . -10) 2418) nil (25484 38229 252120 2000) 0 nil])
+([nil nil ((#("i3 " 0 2 (fontified t face font-lock-variable-name-face) 2 3 (fontified t)) . 2405) (undo-tree-id81 . -3) (undo-tree-id82 . -3) (undo-tree-id83 . -3) 2408) nil (25484 38229 252112 710000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 2446 . 2447) (nil fontified nil 2405 . 2447) (2405 . 2447)) nil (25484 38229 252104 143000) 0 nil])
+([nil nil ((#("exec" 0 4 (fontified t face font-lock-variable-name-face)) . 2405) (undo-tree-id80 . -4) 2409) nil (25484 38229 252097 75000) 0 nil])
+([nil current ((#(" " 0 1 (fontified t)) . -2405) (undo-tree-id91 . -1) 2406 (t 25484 38229 300003 154000)) nil (25484 38230 107974 833000) 0 nil])
+nil

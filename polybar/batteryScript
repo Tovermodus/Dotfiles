@@ -1,0 +1,1 @@
+echo "$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -E "percentage" | awk '{gsub("[ ]*[a-z]*:[ ]*", "");print}'), $(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -E "time to" | awk '{gsub("[ a-z]*:[ ]*", "");print}')"
