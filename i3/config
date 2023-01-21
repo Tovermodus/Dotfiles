@@ -151,7 +151,8 @@ bindsym $cmd+Shift+0 move container to workspace number $ws10
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $cmd+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $cmd+Ctrl+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $cmd+$opt+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $cmd+Shift+q exec "i3lock-fancy"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -205,7 +206,7 @@ exec_always --no-startup-id /home/tovermodus/2-Programme/Dotfiles/Dotfiles/polyb
 # exec --no-startup-id i3-msg 'workspace 1; exec gnome-calendar'
 # exec --no-startup-id i3-msg 'workspace 8; exec bluemail'
 # bindsym $mod+Control+e exec emacs --daemon
-bindsym $cmd+e exec emacsclient --create-frame
+bindsym $cmd+Shift+e exec emacsclient --create-frame
 bindsym Hiragana exec penklick.sh
 bindsym XF86LaunchB exec eraserklick.sh
 bindsym $cmd+Shift+x exec /home/tovermodus/2-Programme/utilityScripts/screen1script.sh 
