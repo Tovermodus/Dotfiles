@@ -1,4 +1,8 @@
 (require 'package)
+(require 'exwm)
+(require 'exwm-config)
+(exwm-config-default)
+
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -8,7 +12,7 @@
  '(company-fuzzy-sorting-backend 'flx)
  '(custom-enabled-themes '(tango-dark))
  '(package-selected-packages
-   '(markdown-preview-mode markdown-mode flycheck flx company-fuzzy helm-company smooth-scrolling outshine zoom helm-xref eglot multiple-cursors expand-region yasnippet-snippets yasnippet shx smex pomidor ivy-prescient swiper ivy which-key darkroom magit helm helm-swoop rainbow-delimiters company-tabnine company undo-tree))
+   '(highlight-thing lua-mode exwm markdown-preview-mode markdown-mode flycheck flx company-fuzzy helm-company smooth-scrolling outshine zoom helm-xref eglot multiple-cursors expand-region yasnippet-snippets yasnippet shx smex pomidor ivy-prescient swiper ivy which-key darkroom magit helm helm-swoop rainbow-delimiters company-tabnine company undo-tree))
  '(smooth-scroll-margin 5)
  '(warning-suppress-types '((comp))))
 (custom-set-faces
@@ -16,6 +20,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(highlight-thing ((t (:inherit 'hi-yellow))))
  '(rainabow-delimiters-depth-1-face ((t (:foreground "White" :inherit rainbow-delimiters-base-face))))
  '(rainbow-delimiters-depth-2-face ((t (:inherit rainbow-delimiters-base-face :foreground "Yellow"))))
  '(rainbow-delimiters-depth-3-face ((t (:inherit rainbow-delimiters-base-face :foreground "Orange"))))
@@ -24,6 +29,7 @@
  '(rainbow-delimiters-depth-6-face ((t (:inherit rainbow-delimiters-base-face :foreground "Purple"))))
  '(rainbow-delimiters-depth-7-face ((t (:inherit rainbow-delimiters-base-face :foreground "Blue")))))
 
+(setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
 (setq backup-directory-alist
           `((".*" . ,"/home/tovermodus/.emacshist")))
 
@@ -35,6 +41,13 @@
 (smooth-scrolling-mode 1)
 (global-company-fuzzy-mode 1)
 (global-display-line-numbers-mode 1)
+
+
+(add-hook 'prog-mode-hook 'highlight-thing-mode)
+(setq highlight-thing-delay-seconds 0)
+(setq highlight-thing-what-thing 'symbol)
+
+(setq xref-prompt-for-identifier nil)
 
 (setq company-idle-delay 0)
 ;; Number the candidates (use M-1, M-2 etc to select completions).
@@ -79,7 +92,7 @@
 (global-set-key (kbd "s-x") 'kill-region)
 (global-set-key (kbd "s-a") 'mark-whole-buffer)
 (global-set-key (kbd "s-A") 'smex) ;;cmd shift a
-(global-set-key (kbd "s-b") 'switch-to-buffer)
+(global-set-key (kbd "s-e") 'switch-to-buffer)
 (global-set-key (kbd "s-z") 'undo)
 (global-set-key (kbd "s-u") 'undo-tree-visualize)
 (global-set-key (kbd "s-r") 'query-replace)
@@ -103,8 +116,8 @@
 (global-set-key (kbd "s-<up>")       'backward-paragraph)
 (global-set-key [(meta up)]       'er/expand-region)
 (global-set-key (kbd "s-<mouse-1>") 'xref-find-references-at-mouse)
+(global-set-key (kbd "s-b") 'xref-find-references)
 (global-set-key (kbd "M-s-l") 'indent-buffer)
-
 
 (global-set-key (kbd "<f5>") 'my-compile)
 (global-set-key (kbd "<f9>") 'my-execute)
