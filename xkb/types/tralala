@@ -1,0 +1,13 @@
+partial default xkb-types "default" {
+
+
+//	virtual_modifiers LevelNeu;
+
+	type "BUCHSTABE" {
+	     modifiers = Shift+Lock;//+Control+Alt;
+	     map[None] = Level1;
+	     map[Shift] = Level2;
+	  //   map[Control] = Level3;
+	    // map[Alt] = Level4;
+	};
+};

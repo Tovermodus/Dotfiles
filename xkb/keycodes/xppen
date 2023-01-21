@@ -1,0 +1,21 @@
+// translation from evdev scancodes to something resembling xfree86 keycodes.
+
+default xkb_keycodes "xppen" {
+	minimum = 8;
+	maximum = 255;
+#56,26,31,65,52,39
+
+	<I212> = 26;#2
+	<HENK> = 31;#3
+	<MUHE> = 39;#6
+	<KATA> = 52;#5
+	<HIRA> = 56;#1
+	<LCTL> = 37;
+	<KPSU> = 82;
+	<KPAD> = 86;
+};
+
+// PC98
+xkb_keycodes "pc98" {
+    include "evdev(evdev)"
+};

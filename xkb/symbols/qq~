@@ -1,0 +1,11 @@
+partial alphanumeric_keys
+xkb_symbols "basic" {
+    name[Group1]= "US/";
+    key.type[Group1] = "BUCHSTABE";
+    key <ESC>  {[    Escape, 0,0,0,0,0,0,0                        ]       };
+    key <TLDE> {[ quoteleft,    asciitilde     , 5,0,0,0,0,0 ]       };
+    key <AE01> {[       Greek_alpha,    exclam         ,0,0,0,0,0,0 ]       };
+    key <AE02> {[	  v,	V,    Greek_mu,0,0,0,0]};	       
+
+
+};

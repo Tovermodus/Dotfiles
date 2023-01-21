@@ -1,0 +1,81 @@
+// based on a keyboard map from an 'xkb/symbols/de' file
+
+default
+xkb_symbols "basic" {
+
+    include "latin(type4)"
+    key.type[Group1] = "BUCHSTABE_NEO";
+    name[Group1]="German";
+
+    //key <KPMU> {[U00D7, U22C5]};
+    //key <AE01>  { [         1,     exclam,  onesuperior,   exclamdown , U21D2, U21D0] };
+    //key <AE02>	{ [         2,   quotedbl,  twosuperior,    oneeighth , U21D4, U21A6]	};
+    //key <AE03>	{ [         3,    section, threesuperior,    sterling , U2207, U220B]	};
+    //key <AE04>	{ [         4,     dollar,   onequarter,     currency , dollar, dollar]	};
+    //key <AE05> { [               5,         percent,      exclamdown,        NoSymbol,         U2020,           U22C3,           U02C1,        NoSymbol ] };
+    //key <AE06> { [               6,       ampersand,    questiondown,        NoSymbol,   U2218,         U22C2,           U02C0,        NoSymbol ] };
+    //key <AE07> { [               7,           slash,       braceleft,        NoSymbol,       U2016,         leftarrow,       braceleft,        NoSymbol ] };
+    //key <AE08> { [               8,       parenleft,     bracketleft,        NoSymbol,    U222A,        rightarrow,      braceright,        NoSymbol ] };
+    //key <AE09> { [               9,      parenright,    bracketright,        NoSymbol,     U2229,         U2283,     bracketleft,        NoSymbol ] };
+    //key <AE10> { [               0,           equal,      braceright,        NoSymbol,    U2211,         U220F,    bracketright,        NoSymbol ] };
+    //key <AE11> {type[Group1]="FOUR_LEVEL_PLUS_LOCK",  symbols[Group1]=
+                  [minus, question, backslash, questiondown, 0x1001E9E ]};
+// The unicode capital letter sharp s U+1E9E is transformed to "SS"
+// to match the rules for capitalizing sharp s in german.
+// If the capital sharp s is needed, delete the line
+// starting with <U1E9C> from /usr/share/X11/locale/iso8859-15/Compose.
+// If both doubled S and capital sharp s are needed, use  0x1001E9E
+// for capital sharp s and some free unicode codepoint like 0x1001E9C
+// for doubled S. Don`t forget to change this in the Compose file, too.
+
+    //key <AE12>	{ [dead_grave, dead_grave, dead_cedilla,  dead_ogonek ]	};
+
+//    key <AD01>  { [         x,          X,           ellipsis,  Greek_OMEGA , U2202, U2135] };
+  //  key <AD02>  { [         v,          V,           underscore,      Lstroke , U3C9, Greek_OMEGA] };
+    //key <AD04>  { [         c,          C,    	     bracketright,   registered , Greek_rho, P] };
+    //key <AD05>  { [         w,          W,    	     asciicircum,       Tslash , Greek_tau, T] };
+    //key <AD06>  { [         k,          K,    	     exclam,          yen , Greek_zeta, Z] };			
+    //key <AD07>  { [         h,          H,    	     less,      uparrow , Greek_theta, Greek_THETA] };
+    //key <AD08>  { [         g,          G,   	     greater,     idotless , Greek_iota, I] };
+    //key <AD09>  { [         f,          F,           equal,     Ooblique , o, O] };
+    //key <AD10>  { [         q,          Q,           ampersand,        THORN , Greek_pi, Greek_PI] };
+    //key <AC01>  { [         u,          U,           backslash,           AE , Greek_alpha, A] };
+    //key <AC03>  { [         a,          A,           braceleft,          ETH , Greek_delta, Greek_DELTA] };
+    //key <AC04>  { [         e,          E,           braceright,  ordfeminine , Greek_phi, Greek_PHI] };
+    //key <AC05>  { [         o,          O,           asterisk,          ENG , Greek_gamma, Greek_GAMMA] };
+    //key <AC06>  { [         s,          S,           question,      Hstroke , Greek_eta, H] };
+    //key <AC08>  { [         r,          R,           parenright,    ampersand , Greek_kappa, K] };
+    //key <AC09>  { [         t,          T,           minus,      Lstroke , Greek_lambda, Greek_LAMBDA] };
+    //key <AB03>  { [         adiaeresis,  Adiaeresis,   bar,    copyright , Greek_psi, Greek_PSI] };
+
+
+
+
+
+    //key <AD03>	{ [         l,          L,	     bracketleft,     EuroSign , Greek_epsilon,E]	};
+    //key <AD11>	{ [	    ssharp, 	U1E9E, 	     U017F, dead_abovering, U2208, U220B] };
+    //key <AD12>	{ [         dead_acute, dead_tilde,  dead_stroke,  macron ]	};
+
+    //key <AC02>  { [         i,          I,	     slash,     U1E9E, Greek_sigma,Greek_SIGMA    ] };
+    //key <AC07>  { [         n,          N,           parenleft, dead_abovedot   , Greek_xi, Greek_XI] };
+    //key <AC10>	{ [	    d, 		D, 	     colon, dead_belowdot, U2200, U2203 ] };
+    //key <AC11>	{ [	    y, 		Y, 	     at, dead_caron , U2282, U2283] };
+    //key <TLDE>	{ [	    dead_circumflex, dead_caron,U21BB,    U2033	] };
+
+    //key <BKSL>	{ [	    numbersign, apostrophe,  rightsinglequotemark,   dead_breve ]	};
+    //key <AB01>	{ [         udiaeresis,  Udiaeresis,   numbersign,    U203A 	, Greek_upsilon,Y] };
+    //key <AB02>	{ [         odiaeresis,  Odiaeresis,   dollar,    U2039 	, Greek_chi, Greek_CHI] };
+    //key <AB04>	{ [         p,          P,   	     asciitilde, singlelowquotemark , Greek_omega, Greek_OMEGA]	};
+    //key <AB05>	{ [         z,          Z,  	     grave, leftsinglequotemark , Greek_beta, B] };
+    //key <AB07>  { [         m,          M, 	     percent, masculine , Greek_mu, M]};
+    //key <AB06>	{ [         b,          B, 	     plus, rightsinglequotemark , Greek_nu,N]	};
+    //key <AB08>  { [         comma,  	endash,      quotedbl,     multiply	] };
+    //key <AB09>	{ [    	    period,     enfilledcircbullet,                apostrophe,     division 	] };
+    //key <AB10>	{ [         j, 		J,               semicolon,     emdash	, underscore] };
+    //key <LSGT>	{ [         less,     	greater,                  bar,     NoSymbol   ] };
+
+    //include "kpdl(comma)"
+
+    //include "level5(supr_switch)"
+    //include "level3(hypr_switch)"
+};

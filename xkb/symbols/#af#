@@ -1,0 +1,162 @@
+//
+// Keymap for the Afghan dari keybord layout
+// Based on the specification "Computer Locale Requirements for 
+// Afghanstan" [1] from the "United Nations Development Programme
+// Afghanistan" and the "Afghan Transitional Islamic 
+// Administration Ministry of Communications". 
+// [1] http://www.evertype.com/standards/af/
+// For a MINI HOWTO see [2].
+// [2] http://www.afghanischerKulturverein.de/en/afghanComputer_en.php
+//
+// 2006-02-15 file created by M. Emal Alekozai <memala@gmx.net>
+
+default
+xkb_symbols "basic" {
+
+    include "latin(type4)"
+    key.type[Group1] = "BUCHSTABE";
+    name[Group1]="German";
+    
+    key <KPMU> {[U00D7, U22C5,U22C5, U2297,U2297, U2297,U22C5, U2297]};
+    key <AE01>  { [         1,     exclam,  onesuperior,   exclamdown , U21D2, U21D0] };
+   key <AE02>	{ [         2,   quotedbl,  twosuperior,    oneeighth , U21D4, U21A6]	};
+    key <AE03>	{ [         3,    section, threesuperior,    sterling , U2207, U203E]	};
+    key <AE04>	{ [         4,     dollar,   onequarter,     currency , dollar, dollar]	};
+    key <AE05> { [               5,         percent,      exclamdown,        NoSymbol,         U2020,           U22C3,           U02C1,        NoSymbol ] };
+    key <AE06> { [               6,       ampersand,    questiondown,        NoSymbol,   U2218,         U22C2,           U02C0,        NoSymbol ] };
+    key <AE07> { [               7,           slash,       braceleft,        NoSymbol,       U2016,         leftarrow,       braceleft,        NoSymbol ] };
+    key <AE08> { [               8,       parenleft,     bracketleft,        NoSymbol,    U222A,        rightarrow,      braceright,        NoSymbol ] };
+    key <AE09> { [               9,      parenright,    bracketright,        NoSymbol,     U2229,         U2283,     bracketleft,        NoSymbol ] };
+    key <AE10> { [               0,           equal,      braceright,        NoSymbol,    U221E,         U220F,    bracketright,        NoSymbol ] };
+    key <AE11> { [ssharp, question, backslash, backslash, backslash, backslash, backslash, backslash ]};
+// The unicode capital letter sharp s U+1E9E is transformed to "SS"
+// to match the rules for capitalizing sharp s in german.
+// If the capital sharp s is needed, delete the line
+// starting with <U1E9C> from /usr/share/X11/locale/iso8859-15/Compose.
+// If both doubled S and capital sharp s are needed, use  0x1001E9E
+// for capital sharp s and some free unicode codepoint like 0x1001E9C
+// for doubled S. Don`t forget to change this in the Compose file, too.
+
+    key <AE12>	{ [U00B4, U0060, dead_cedilla,  dead_ogonek,dead_acute, dead_grave ]	};
+
+    key <AD01>  { [         q,          Q,           at,  Greek_OMEGA , U2202, U2135] };
+    key <AD02>  { [         w,          W,      lstroke,      Lstroke , U3C9, Greek_OMEGA] };
+    key <AD04>  { [         r,          R,    paragraph,   registered , Greek_rho, P] };
+    key <AD05>  { [         t,          T,       tslash,       Tslash , Greek_tau, T] };
+    key <AD06>  { [         z,          Z,    leftarrow,          yen , Greek_zeta, Z] };			
+    key <AD07>  { [         u,          U,    downarrow,      uparrow , Greek_theta, Greek_THETA] };
+    key <AD08>  { [         i,          I,   rightarrow,     idotless , Greek_iota, I] };
+    key <AD09>  { [         o,          O,       oslash,     Ooblique , o, O] };
+    key <AD10>  { [         p,          P,        thorn,        THORN , Greek_pi, Greek_PI] };
+    key <AC01>  { [         a,          A,           ae,           AE , Greek_alpha, A] };
+    key <AC03>  { [         d,          D,          eth,          ETH , Greek_delta, Greek_DELTA] };
+    key <AC04>  { [         f,          F,      dstroke,  ordfeminine , Greek_phi, Greek_PHI] };
+    key <AC05>  { [         g,          G,          eng,          ENG , Greek_gamma, Greek_GAMMA] };
+    key <AC06>  { [         h,          H,      hstroke,      Hstroke , Greek_eta, H] };
+    key <AC08>  { [         k,          K,          kra,    ampersand , Greek_kappa, K] };
+    key <AC09>  { [         l,          L,      lstroke,      Lstroke , Greek_lambda, Greek_LAMBDA] };
+    key <AB03>  { [         c,          C,         cent,    copyright , Greek_psi, Greek_PSI] };
+
+
+
+
+
+    key <AD03>	{ [         e,          E,     EuroSign,     EuroSign , Greek_epsilon,E]	};
+    key <AD11>	{ [udiaeresis, Udiaeresis, dead_diaeresis, dead_abovering, U2208, U220B] };
+    key <AD12>	{ [      plus,   asterisk,   asciitilde,  macron ]	};
+
+    key <AC02>  { [         s,          S,                U017F,     U1E9E, Greek_sigma,Greek_SIGMA    ] };
+    key <AC07>  { [         j,          J,        dead_belowdot, dead_abovedot   , Greek_xi, Greek_XI] };
+    key <AC10>	{ [odiaeresis, Odiaeresis, dead_doubleacute, dead_belowdot, U2200, U2203 ] };
+    key <AC11>	{ [adiaeresis, Adiaeresis, dead_circumflex, dead_caron , U2282, U2283] };
+    key <TLDE>	{ [U005E, degree,	dead_circumflex,    U2033	] };
+
+    key <BKSL>	{ [numbersign, apostrophe, rightsinglequotemark,   dead_breve ]	};
+    key <AB01>	{ [         y,          Y,       guillemotright,    U203A 	, Greek_upsilon,Y] };
+    key <AB02>	{ [         x,          X,        guillemotleft,    U2039 	, Greek_chi, Greek_CHI] };
+    key <AB04>	{ [         v,          V,   doublelowquotemark, singlelowquotemark , Greek_omega, Greek_OMEGA]	};
+    key <AB05>	{ [         b,          B,  leftdoublequotemark, leftsinglequotemark , Greek_beta, B] };
+    key <AB07>  { [         m,          M, mu, masculine , Greek_mu, M]};
+    key <AB06>	{ [         n,          N, rightdoublequotemark, rightsinglequotemark , Greek_nu,N]	};
+    key <AB08>  { [     comma,  semicolon,       periodcentered,     multiply	] };
+    key <AB09>	{ [    period,      colon,                U2026,     division 	] };
+    key <AB10>	{ [     minus, underscore,               endash,     emdash	, underscore] };
+    key <LSGT>	{ [     less,     greater,                  bar,     NoSymbol   ] };
+
+    include "kpdl(comma)"
+    include "level5(ralt_switch)"
+    include "level3(rwin_switch)"
+
+
+};
+
+// Keymap for the Afghan pashto keybord layout
+// Based on the specification "Computer Locale Requirements for 
+// Afghanstan" [1] from the "United Nations Development Programme
+// Afghanistan"" and the "Afghan Transitional Islamic 
+// Administration Ministry of Communications". 
+// [1] http://www.evertype.com/standards/af/
+// For a MINI HOWTO see [2].
+// [2] http://www.afghanischerKulturverein.de/en/afghanComputer_en.php
+// 
+// 2006-02-15 file created by M. Emal Alekozai <memala@gmx.net>
+
+partial alphanumeric_keys
+xkb_symbols "ps" {
+   name[Group1]= "Pashto";
+
+   key <TLDE> { [ 0x100200d, 0x10000f7, dead_tilde ] };
+   key <AE01> { [ 0x10006f1, exclam, 0x1000060 ] };
+   key <AE02> { [ 0x10006f2, 0x100066c, 0x1000040 ] };
+   key <AE03> { [ 0x10006f3, 0x100066b, numbersign ] };
+   key <AE04> { [ 0x10006f4, 0x100e60b, 0x1000024] };
+   key <AE05> { [ 0x10006f5, 0x100066a, 0x1000025 ] };
+   key <AE06> { [ 0x10006f6, multiply, 0x100005e ] };
+   key <AE07> { [ 0x10006f7, 0x10000bb, 0x1000026 ] };
+   key <AE08> { [ 0x10006f8, 0x10000ab, 0x1002022 ] };
+   key <AE09> { [ 0x10006f9, 0x1000029, 0x100200e ] };
+   key <AE10> { [ 0x10006f0, 0x1000028, 0x100200f ] };
+   key <AE11> { [ minus, Arabic_tatweel, 0x100005f ] };
+   key <AE12> { [ equal, plus ] };
+
+   key <AD01> { [ Arabic_dad, Arabic_sukun, 0x10000b0 ] };
+   key <AD02> { [ Arabic_sad, Arabic_dammatan, 0x1000653 ] };
+   key <AD03> { [ Arabic_theh, Arabic_kasratan, 0x10020ac ] };
+   key <AD04> { [ Arabic_qaf, Arabic_fathatan, 0x100fd3e ] };
+   key <AD05> { [ Arabic_feh, Arabic_damma, 0x100fd3f ] };
+   key <AD06> { [ Arabic_ghain, Arabic_kasra, 0x100e656] };
+   key <AD07> { [ Arabic_ain, Arabic_fatha, 0x100e659] };
+   key <AD08> { [ Arabic_heh, Arabic_shadda, 0x1000670] };
+   key <AD09> { [ Arabic_khah, 0x1000681, 0x1000027] };
+   key <AD10> { [ Arabic_hah, 0x1000685, 0x1000022] };
+   key <AD11> { [ Arabic_jeem, 0x100005d, 0x100007d ] };
+   key <AD12> { [ 0x1000686, 0x100005b, 0x100007b ] };
+
+   key <AC01> { [ Arabic_sheen, 0x100069a ] };
+   key <AC02> { [ Arabic_seen, Arabic_hamzaonyeh, 0x10006d2 ] };
+   key <AC03> { [ 0x10006cc, Arabic_yeh, 0x1000649 ] };
+   key <AC04> { [ Arabic_beh, 0x100067e, 0x10006ba ] };
+   key <AC05> { [ Arabic_lam, Arabic_hamzaonalef, 0x10006b7 ] };
+   key <AC06> { [ Arabic_alef, Arabic_maddaonalef, 0x1000671 ] };
+   key <AC07> { [ Arabic_teh, 0x100067c, 0x1000679 ] };
+   key <AC08> { [ Arabic_noon, 0x10006bc, 0x100003e ] };
+   key <AC09> { [ Arabic_meem, 0x1000629, 0x100003c ] };
+   key <AC10> { [ 0x10006a9, colon, 0x1000643 ] };
+   key <AC11> { [ 0x10006ab, Arabic_semicolon, 0x10006af ] };
+
+   key <BKSL> { [ backslash, 0x100002a, 0x100007c ] };
+
+   key <AB01> { [ 0x10006cd, 0x1000638, 0x100003f] };
+   key <AB02> { [ 0x10006d0, 0x1000637, 0x100003b ] };
+   key <AB03> { [ Arabic_zain, 0x1000698, 0x1000655 ] };
+   key <AB04> { [ Arabic_ra, 0x1000621, 0x1000654 ] };
+   key <AB05> { [ Arabic_thal, 0x100200c, 0x1000625  ] };
+   key <AB06> { [ Arabic_dal, 0x1000689, 0x1000688 ] };
+   key <AB07> { [ 0x1000693, 0x1000624, 0x1000691 ] };
+   key <AB08> { [ Arabic_waw, 0x100060c, 0x100002c ] };
+   key <AB09> { [ 0x1000696, 0x100002e, 0x10006c7 ] };
+   key <AB10> { [ slash, Arabic_question_mark, 0x10006c9 ] };
+
+   include "nbsp(zwnj2nb3)"
+   include "level3(ralt_switch)"
+};
