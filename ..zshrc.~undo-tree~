@@ -1,0 +1,8 @@
+(undo-tree-save-format-version . 1)
+"86c13487fac8a3749987013c79335030f669e3dc"
+[nil nil nil nil (25484 59582 484279 30000) 0 nil]
+([nil nil ((#("#" 0 1 (fontified t face font-lock-comment-delimiter-face)) . 169) (t 25484 43436 284625 909000)) nil (25484 59582 484275 786000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 303) (#("#" 0 1 (fontified t face font-lock-comment-delimiter-face)) . 303) (t 25484 59582 486260 543000)) nil (25484 59610 412449 674000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 265) (#("#" 0 1 (fontified t face font-lock-comment-delimiter-face)) . 265)) nil (25484 59610 412448 994000) 0 nil])
+([nil current ((#(" " 0 1 (fontified t)) . 169)) nil (25484 59610 412446 250000) 0 nil])
+nil

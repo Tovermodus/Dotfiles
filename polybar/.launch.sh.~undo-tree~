@@ -1,2 +1,33 @@
-"30f6e5b0cc66d393c06d922e97452f5aff4d3f4c"
-#s(undo-tree [nil ([nil ([nil ([nil ([nil ([nil ([nil ([nil ([nil ([nil ([nil (#1=[nil nil ((286 . 297)) nil (24622 27489 779339 348000) 0 nil]) ((#("n" 0 1 (fontified t)) . -286) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (#("b" 0 1 (fontified t)) . -287) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (#("a" 0 1 (fontified t)) . -288) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) 289) nil (24622 27489 779363 364000) 0 nil]) ((286 . 289)) nil (24622 27489 779366 546000) 0 nil]) ((#("v" 0 1 (fontified t)) . -286) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (#("b" 0 1 (fontified t)) . -287) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) 288) nil (24622 27489 779379 570000) 0 nil]) ((274 . 288)) nil (24622 27489 779381 116000) 0 nil]) ((273 . 274)) nil (24622 27489 779381 772000) 0 nil]) ((265 . 273) (t 24622 22396 967822 846000)) nil (24622 27489 779382 666000) 0 nil]) ((265 . 272)) nil (24622 22396 959473 308000) 0 nil]) ((#("mybar" 0 5 (fontified t)) . 265) (undo-tree-id0 . -5) (undo-tree-id1 . -5) (undo-tree-id2 . -5) 270 (t 24622 22034 254588 338000)) nil (24622 22396 959490 575000) 0 nil]) ((300 . 301)) nil (24622 22034 243914 988000) 0 nil]) ((nil rear-nonsticky nil 299 . 300) (nil fontified nil 1 . 300) (1 . 300) (t . -1)) nil (24622 22034 243920 481000) 0 nil]) nil nil (24622 22034 243922 653000) 0 nil] #1# 514 11 nil)
+(undo-tree-save-format-version . 1)
+"1f2e4e5f996fde0b7211ee2e13d78f93c204eb9a"
+[nil nil nil nil (24622 22034 243922 653000) 0 nil]
+([nil nil ((nil rear-nonsticky nil 299 . 300) (nil fontified nil 1 . 300) (1 . 300) (t . -1)) nil (24622 22034 243920 481000) 0 nil])
+([nil nil ((300 . 301)) nil (24622 22034 243914 988000) 0 nil])
+([nil nil ((#("mybar" 0 5 (fontified t)) . 265) (undo-tree-id0 . -5) (undo-tree-id1 . -5) (undo-tree-id2 . -5) 270 (t 24622 22034 254588 338000)) nil (24622 22396 959490 575000) 0 nil])
+([nil nil ((265 . 272)) nil (24622 22396 959473 308000) 0 nil])
+([nil nil ((265 . 273) (t 24622 22396 967822 846000)) nil (24622 27489 779382 666000) 0 nil])
+([nil nil ((273 . 274)) nil (24622 27489 779381 772000) 0 nil])
+([nil nil ((274 . 288)) nil (24622 27489 779381 116000) 0 nil])
+([nil nil ((#("v" 0 1 (fontified t)) . -286) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (#("b" 0 1 (fontified t)) . -287) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) 288) nil (24622 27489 779379 570000) 0 nil])
+([nil nil ((286 . 289)) nil (24622 27489 779366 546000) 0 nil])
+([nil nil ((#("n" 0 1 (fontified t)) . -286) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (#("b" 0 1 (fontified t)) . -287) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (#("a" 0 1 (fontified t)) . -288) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) 289) nil (24622 27489 779363 364000) 0 nil])
+([nil nil ((286 . 297)) nil (25484 46041 630296 648000) 0 nil])
+([nil nil ((#(".config/polybar/config" 0 20 (fontified t) 20 21 (fontified t) 21 22 (fontified t)) . -274) (undo-tree-id11 . -22) (undo-tree-id12 . -22) 296 (t 25484 43402 954360 354000)) nil (25484 46083 76245 170000) 0 nil] [nil nil ((#("i" 0 1 (fontified t)) . -294) (undo-tree-id0 . -1) (#("g" 0 1 (fontified t)) . -295) (undo-tree-id1 . -1) 296 (t 25484 43402 954360 354000)) ((294 . 296)) (25484 46041 629205 535000) 0 nil])
+([nil nil ((274 . 277)) nil (25484 46083 76238 701000) 0 nil])
+nil
+([nil nil ((#("~" 0 1 (fontified t)) . -274) (undo-tree-id8 . -1) (#("/" 0 1 (fontified t)) . -275) (undo-tree-id9 . -1) (#("2" 0 1 (fontified t)) . -276) (undo-tree-id10 . -1) 277) nil (25484 46083 76236 983000) 0 nil])
+([nil nil ((274 . 277)) nil (25484 46083 76231 78000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . -276) (undo-tree-id7 . -1) 277) nil (25484 46083 76229 869000) 0 nil])
+([nil nil ((276 . 279)) nil (25484 46083 76226 718000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified nil)) . -290) (274 . 291) (#("/home" 0 5 (fontified t)) . -274) (undo-tree-id6 . -5) 279) nil (25484 46083 76225 2000) 0 nil])
+([nil nil ((290 . 292)) nil (25484 46083 76221 794000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified nil)) . -311) (274 . 312) (#("/home/tovermodus/2" 0 18 (fontified t)) . -274) (undo-tree-id5 . -18) 292) nil (25484 46083 76220 149000) 0 nil])
+([nil nil ((311 . 313)) nil (25484 46083 76216 827000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified nil)) . -320) (274 . 321) (#("/home/tovermodus/2-Programme/Dotfiles/D" 0 39 (fontified t)) . -274) (undo-tree-id4 . -39) 313) nil (25484 46083 76215 196000) 0 nil])
+([nil nil ((320 . 322)) nil (25484 46083 76212 67000) 0 nil])
+([nil nil ((321 . 322)) nil (25484 46083 76211 34000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -321) (undo-tree-id3 . -1) 322) nil (25484 46083 76209 82000) 0 nil])
+([nil nil ((322 . 324)) nil (25484 46083 76204 88000) 0 nil])
+([nil current ((274 . 335) (#("/home/tovermodus/2-Programme/Dotfiles/Dotfiles/pol" 0 50 (fontified t)) . -274) (undo-tree-id2 . -50) 324) nil (25484 46083 76197 765000) 0 nil])
+nil

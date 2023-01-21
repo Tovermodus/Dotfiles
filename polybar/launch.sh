@@ -7,6 +7,6 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch Polybar, using default config location ~/.config/polybar/config
-polybar --config=.config/polybar/config example &
+polybar --config=/home/tovermodus/2-Programme/Dotfiles/Dotfiles/polybar/config example &
 
 echo "Polybar launched..."

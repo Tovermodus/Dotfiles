@@ -1,0 +1,28 @@
+(undo-tree-save-format-version . 1)
+"e774b98fc9ef37566d2f20ea474d9c987cd265e5"
+[nil nil nil nil (25484 46644 591088 218000) 0 nil]
+([nil nil ((1793 . 1794)) ((#("
+" 0 1 (fontified t)) . 1793) (undo-tree-id8 . -1)) (25484 46646 360560 591000) 0 nil])
+([nil nil ((nil fontified nil 1794 . 1795) (nil fontified nil 1795 . 1799) (nil fontified nil 1799 . 1823) (1794 . 1871)) ((#("(setq backup-directory-alist
+          `((\".*\" . ,temporary-file-directory)))" 0 1 (fontified nil) 1 5 (fontified nil face font-lock-keyword-face) 5 29 (fontified nil) 29 42 (fontified nil) 42 46 (fontified nil face font-lock-string-face) 46 50 (fontified nil) 50 60 (fontified nil) 60 65 (fontified nil) 65 74 (fontified nil) 74 76 (fontified nil) 76 77 (fontified nil rear-nonsticky nil)) . 1794) (undo-tree-id6 . -74) (nil fontified t 1799 . 1823) (nil fontified t 1795 . 1799) (nil fontified t 1794 . 1795) (nil rear-nonsticky nil 1870 . 1871)) (25484 46646 591095 533000) 0 nil] [nil nil ((nil rear-nonsticky nil 1857 . 1858) (nil fontified nil 1794 . 1858) (1794 . 1858)) ((#("/home/tovermodus/2-Programme/Dotfiles/Dotfiles/polybar/launch.sh" 0 63 (fontified nil) 63 64 (rear-nonsticky nil fontified nil)) . 1794) (undo-tree-id0 . -64) (nil rear-nonsticky t 1857 . 1858)) (25484 46387 742340 130000) 0 nil])
+([nil nil ((#("directory" 0 9 (fontified t)) . 1859)) ((1859 . 1868)) (25484 46646 780258 629000) 0 nil])
+nil
+([nil nil ((#("file-" 0 5 (fontified t)) . 1854) (undo-tree-id10 . -5) (undo-tree-id11 . -5)) ((1854 . 1859)) (25484 46647 225263 557000) 0 nil])
+([nil nil ((#("temporary-" 0 10 (fontified t)) . 1844) (undo-tree-id12 . -10) (undo-tree-id13 . -10)) ((1844 . 1854)) (25484 46647 415467 484000) 0 nil])
+([nil nil ((1844 . 1857)) ((#("\"/home/tover." 0 1 (fontified t face font-lock-string-face) 1 12 (fontified t face font-lock-string-face) 12 13 (fontified t face font-lock-string-face)) . 1844) (undo-tree-id5 . -13)) (25484 46647 578264 611000) 0 nil])
+([nil nil ((#("." 0 1 (fontified t face font-lock-string-face)) . 1856)) ((1856 . 1857)) (25484 46648 141104 422000) 0 nil])
+([nil nil ((1856 . 1862)) ((#("modus/" 0 6 (fontified t face font-lock-string-face)) . 1856) (undo-tree-id4 . -6)) (25484 46648 333866 536000) 0 nil])
+([nil nil ((1862 . 1867)) ((#(".emac" 0 5 (fontified t face font-lock-string-face)) . 1862) (undo-tree-id3 . -5)) (25484 46648 516412 544000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified nil)) . 1872) (1845 . 1873) (#("/home/tovermodus/.emac" 0 11 (fontified t face font-lock-string-face) 11 17 (fontified t face font-lock-string-face) 17 22 (fontified t face font-lock-string-face)) . 1845) (undo-tree-id14 . -17) (undo-tree-id15 . -17)) ((1845 . 1867) (#("/home/tovermodus/.emacshist/" 0 27 (fontified nil face font-lock-string-face) 27 28 (fontified nil)) . 1845) (undo-tree-id2 . -27) (1872 . 1873)) (25484 46648 696982 878000) 0 nil])
+([nil nil ((1872 . 1873)) ((#("\"" 0 1 (fontified t face font-lock-string-face)) . 1872) (t 25484 46418 531770 816000)) (25484 46648 867702 963000) 0 nil])
+([nil current ((1083 . 1084) (t 25484 46418 531770 816000)) ((#("a" 0 1 (fontified t)) . 1083)) (25484 46650 96604 182000) 0 nil])
+([nil nil ((1290 . 1291)) ((#("a" 0 1 (fontified t)) . 1290)) (25484 46649 258348 154000) 0 nil])
+([nil nil ((1395 . 1397)) ((#("sd" 0 2 (fontified t)) . 1395)) (25484 46638 100219 297000) 0 nil])
+([nil nil ((1706 . 1709)) ((#("s a" 0 3 (fontified t)) . 1706)) (25484 46637 438979 576000) 0 nil])
+([nil nil ((1800 . 1802)) ((#("sd" 0 2 (fontified t)) . 1800)) (25484 46637 193304 336000) 0 nil])
+([nil nil ((1805 . 1806)) ((#("a" 0 1 (fontified t)) . 1805)) (25484 46636 978289 664000) 0 nil])
+([nil nil ((1836 . 1839)) ((#(" as" 0 3 (fontified t)) . 1836)) (25484 46636 793029 726000) 0 nil])
+([nil nil ((1897 . 1898)) ((#("d" 0 1 (fontified t)) . 1897) (undo-tree-id1 . -1)) (25484 46636 403000 508000) 0 nil])
+([nil nil ((1898 . 1899)) ((#(" " 0 1 (fontified t)) . 1898)) (25484 46635 957122 770000) 0 nil])
+([nil nil ((1925 . 1926)) ((#("s" 0 1 (fontified t)) . 1925) (undo-tree-id0 . -1)) (25484 46635 956966 622000) 0 nil])
+nil

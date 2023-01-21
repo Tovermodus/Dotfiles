@@ -16,7 +16,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(rainbow-delimiters-depth-1-face ((t (:foreground "White" :inherit rainbow-delimiters-base-face))))
+ '(rainabow-delimiters-depth-1-face ((t (:foreground "White" :inherit rainbow-delimiters-base-face))))
  '(rainbow-delimiters-depth-2-face ((t (:inherit rainbow-delimiters-base-face :foreground "Yellow"))))
  '(rainbow-delimiters-depth-3-face ((t (:inherit rainbow-delimiters-base-face :foreground "Orange"))))
  '(rainbow-delimiters-depth-4-face ((t (:inherit rainbow-delimiters-base-face :foreground "Red"))))
@@ -24,6 +24,8 @@
  '(rainbow-delimiters-depth-6-face ((t (:inherit rainbow-delimiters-base-face :foreground "Purple"))))
  '(rainbow-delimiters-depth-7-face ((t (:inherit rainbow-delimiters-base-face :foreground "Blue")))))
 
+(setq backup-directory-alist
+          `((".*" . ,"/home/tovermodus/.emacshist")))
 
 (add-to-list 'load-path
              "~/.emacs.d/plugins/yasnippet")
@@ -32,6 +34,7 @@
 (global-company-mode 1)
 (smooth-scrolling-mode 1)
 (global-company-fuzzy-mode 1)
+(global-display-line-numbers-mode 1)
 
 (setq company-idle-delay 0)
 ;; Number the candidates (use M-1, M-2 etc to select completions).
@@ -75,10 +78,11 @@
 (global-set-key (kbd "s-v") 'yank)
 (global-set-key (kbd "s-x") 'kill-region)
 (global-set-key (kbd "s-a") 'mark-whole-buffer)
-(global-set-key (kbd "s-A") 'smex)
+(global-set-key (kbd "s-A") 'smex) ;;cmd shift a
 (global-set-key (kbd "s-b") 'switch-to-buffer)
 (global-set-key (kbd "s-z") 'undo)
 (global-set-key (kbd "s-u") 'undo-tree-visualize)
+(global-set-key (kbd "s-r") 'query-replace)
 (global-set-key (kbd "s-f") 'helm-swoop)
 (global-set-key (kbd "s-F") 'helm-multi-swoop-all)
 (global-set-key (kbd "s-g") 'isearch-repeat-forward)
@@ -86,15 +90,13 @@
 (global-set-key (kbd "s-n") 'find-file)
 (global-set-key (kbd "s-s") 'save-buffer)
 (global-set-key (kbd "s-w") 'kill-buffer)
-(global-set-key (kbd "s-m") 'iconify-frame)
 (global-set-key (kbd "s-q") 'save-buffers-kill-emacs)
-(global-set-key (kbd "s-.") 'keyboard-quit)
 (global-set-key (kbd "s-l") 'goto-line)
 (global-set-key (kbd "s-k") 'kill-buffer)
 (global-set-key (kbd "s-/") 'comment-line)
 (global-set-key (kbd "M-S-<mouse-1>")    'mc/add-cursor-on-click)
-(global-set-key (kbd "C-s-<up>")    'beginning-of-buffer)
-(global-set-key (kbd "C-s-<down>")  'end-of-buffer)
+(global-set-key (kbd "M-s-<up>")    'beginning-of-buffer)
+(global-set-key (kbd "M-s-<down>")  'end-of-buffer)
 (global-set-key (kbd "s-<left>")  'beginning-of-line)
 (global-set-key (kbd "s-<right>") 'end-of-line)
 (global-set-key (kbd "s-<down>")     'forward-paragraph)
@@ -104,9 +106,14 @@
 (global-set-key (kbd "M-s-l") 'indent-buffer)
 
 
-(add-hook 'python-mode-hook 'eglot-ensure)
+(global-set-key (kbd "<f5>") 'my-compile)
+(global-set-key (kbd "<f9>") 'my-execute)
+
+
+
+(add-hook 'python-moe-hook 'eglot-ensure)
 (add-hook 'eglot-managed-mode-hook
 	  (lambda ()
-	     (define-key eglot-mode-map (kbd "S-<f6>") 'eglot-rename)
-	      (define-key eglot-mode-map (kbd "M-s-l") 'eglot-format-buffer)
-	      (define-key eglot-mode-map (kbd "M-s-o") 'eglot-code-action-organize-imports)))
+	    (define-key eglot-mode-map (kbd "S-<f6>") 'eglot-rename)
+	    (define-key eglot-mode-map (kbd "M-s-l") 'eglot-format-buffer)
+	    (define-key eglot-mode-map (kbd "M-s-o") 'eglot-code-action-organize-imports)))

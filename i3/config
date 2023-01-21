@@ -195,31 +195,28 @@ bindsym $opt+m exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotif
 bindsym $opt+n exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
 bindsym $cmd+Tab exec rofi -show window -theme Adapta-Nokto
 
-
-bindsym Ctrl+Left workspace prev
-bindsym Ctrl+Right workspace next
-
-
+bindsym Ctrl+Left exec python /home/tovermodus/2-Programme/Dotfiles/Dotfiles/i3/workspace.py prev
+bindsym Ctrl+Right exec python /home/tovermodus/2-Programme/Dotfiles/Dotfiles/i3/workspace.py next
 
 for_window [class="jetbrains-idea" title="win0"] floating enable;
-exec_always --no-startup-id .config/polybar/launch.sh
-exec python3 ~/2-Programme/utilityScripts/battery_check.py
-exec fsearch -u
-exec --no-startup-id i3-msg 'workspace 1; exec gnome-calendar'
-exec --no-startup-id i3-msg 'workspace 8; exec bluemail'
+exec_always --no-startup-id /home/tovermodus/2-Programme/Dotfiles/Dotfiles/polybar/launch.sh
+# exec python3 ~/2-Programme/utilityScripts/battery_check.py
+# exec fsearch -u
+# exec --no-startup-id i3-msg 'workspace 1; exec gnome-calendar'
+# exec --no-startup-id i3-msg 'workspace 8; exec bluemail'
 # bindsym $mod+Control+e exec emacs --daemon
 bindsym $cmd+e exec emacsclient --create-frame
 bindsym Hiragana exec penklick.sh
 bindsym XF86LaunchB exec eraserklick.sh
-#bindsym $mod+x exec xrandr --output DP1 --auto --output DP1 --left-of eDP1
+bindsym $cmd+Shift+x exec /home/tovermodus/2-Programme/utilityScripts/screen1script.sh 
 #bindsym $mod+Shift+x exec xrandr --output DVI-I-1-1 --auto --output DVI-I-1-1 --right-of eDP1
 exec setxkbmap -keycodes mac mac
-exec enpass
-exec st -e  python3 /home/tovermodus/2-Programme/python/KaPom/taskmanager.py
-exec emacs --daemon
+# exec enpass
+# exec st -e  python3 /home/tovermodus/2-Programme/python/KaPom/taskmanager.py
+# exec emacs --daemon
 # bindsym $mod+Shift+x exec /home/tovermodus/2-Programme/portal-sevice.sh
 # bindsym $cmd+F2 exec /home/tovermodus/2-Programme/screen1script.sh
 # bindsym $mod+Control+Shift+r exec /home/tovermodus/2-Programme/restrict.sh
-exec /usr/lib/xdg-desktop-portal
-exec xppen.sh
-exec touchegg
+# exec /usr/lib/xdg-desktop-portal
+# exec xppen.sh
+# exec touchegg

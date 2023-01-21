@@ -222,3 +222,4 @@ bindsym $cmd+F2 exec /home/tovermodus/2-Programme/screen1script.sh
 # bindsym $mod+Control+Shift+r exec /home/tovermodus/2-Programme/restrict.sh
 exec /usr/lib/xdg-desktop-portal
 exec xppen.sh
+exec touchegg
