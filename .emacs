@@ -12,7 +12,7 @@
  '(company-fuzzy-sorting-backend 'flx)
  '(custom-enabled-themes '(tango-dark))
  '(package-selected-packages
-   '(highlight-thing lua-mode exwm markdown-preview-mode markdown-mode flycheck flx company-fuzzy helm-company smooth-scrolling outshine zoom helm-xref eglot multiple-cursors expand-region yasnippet-snippets yasnippet shx smex pomidor ivy-prescient swiper ivy which-key darkroom magit helm helm-swoop rainbow-delimiters company-tabnine company undo-tree))
+   '(back-button highlight-thing lua-mode exwm markdown-preview-mode markdown-mode flycheck flx company-fuzzy helm-company smooth-scrolling outshine zoom helm-xref eglot multiple-cursors expand-region yasnippet-snippets yasnippet shx smex pomidor ivy-prescient swiper ivy which-key darkroom magit helm helm-swoop rainbow-delimiters company-tabnine company undo-tree))
  '(smooth-scroll-margin 5)
  '(warning-suppress-types '((comp))))
 (custom-set-faces
@@ -31,7 +31,7 @@
 
 (setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
 (setq backup-directory-alist
-          `((".*" . ,"/home/tovermodus/.emacshist")))
+      `((".*" . ,"/home/tovermodus/.emacshist")))
 
 (add-to-list 'load-path
              "~/.emacs.d/plugins/yasnippet")
@@ -41,6 +41,7 @@
 (smooth-scrolling-mode 1)
 (global-company-fuzzy-mode 1)
 (global-display-line-numbers-mode 1)
+(back-button-mode 1)
 
 
 (add-hook 'prog-mode-hook 'highlight-thing-mode)
@@ -114,19 +115,21 @@
 (global-set-key (kbd "s-<right>") 'end-of-line)
 (global-set-key (kbd "s-<down>")     'forward-paragraph)
 (global-set-key (kbd "s-<up>")       'backward-paragraph)
+(global-set-key (kbd "s-[")       'back-button-global-backward)
+(global-set-key (kbd "s-]")       'back-button-global-forward)
+(global-set-key (kbd "s-{")       'back-button-local-backward)
+(global-set-key (kbd "s-}")       'back-button-local-forward)
 (global-set-key [(meta up)]       'er/expand-region)
 (global-set-key (kbd "s-<mouse-1>") 'xref-find-references-at-mouse)
 (global-set-key (kbd "s-b") 'xref-find-references)
-(global-set-key (kbd "M-s-l") 'indent-buffer)
+(global-set-key (kbd "C-M-l") 'indent-buffer)
 
 (global-set-key (kbd "<f5>") 'my-compile)
 (global-set-key (kbd "<f9>") 'my-execute)
-
-
 
 (add-hook 'python-moe-hook 'eglot-ensure)
 (add-hook 'eglot-managed-mode-hook
 	  (lambda ()
 	    (define-key eglot-mode-map (kbd "S-<f6>") 'eglot-rename)
-	    (define-key eglot-mode-map (kbd "M-s-l") 'eglot-format-buffer)
-	    (define-key eglot-mode-map (kbd "M-s-o") 'eglot-code-action-organize-imports)))
+	    (define-key eglot-mode-map (kbd "C-M-l") 'eglot-format-buffer)
+	    (define-key eglot-mode-map (kbd "C-M-o") 'eglot-code-action-organize-imports)))
